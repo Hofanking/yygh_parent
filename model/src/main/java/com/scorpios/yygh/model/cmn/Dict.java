@@ -11,11 +11,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * <p>
- * Dict
- * </p>
- *
- * @author qy
+ * @author scorpios
  */
 @Data
 @ApiModel(description = "数据字典")

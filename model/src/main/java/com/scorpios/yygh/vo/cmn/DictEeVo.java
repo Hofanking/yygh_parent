@@ -1,15 +1,10 @@
 package com.scorpios.yygh.vo.cmn;
 
 import com.alibaba.excel.annotation.ExcelProperty;
-import com.alibaba.excel.metadata.BaseRowModel;
 import lombok.Data;
 
 /**
- * <p>
- * Dict
- * </p>
- *
- * @author qy
+ * @author scorpios
  */
 @Data
 public class DictEeVo {
