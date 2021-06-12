@@ -9,11 +9,7 @@ import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 /**
- * <p>
- * Hospital
- * </p>
- *
- * @author qy
+ * @author scorpios
  */
 @Data
 @ApiModel(description = "Hospital")

@@ -8,11 +8,7 @@ import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 /**
- * <p>
- * Department
- * </p>
- *
- * @author qy
+ * @author scorpios
  */
 @Data
 @ApiModel(description = "Department")
