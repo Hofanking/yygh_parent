@@ -24,6 +24,8 @@ public interface DictService extends IService<Dict> {
 
     //根据dictCode获取下级节点
     List<Dict> findByDictCode(String dictCode);
+
+    String getNameByParentDictCodeAndValue(String parentDictCode, String value);
 }
 
 
