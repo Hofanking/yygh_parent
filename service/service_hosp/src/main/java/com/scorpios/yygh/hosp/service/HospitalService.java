@@ -22,4 +22,23 @@ public interface HospitalService {
      * @return
      */
     Page<Hospital> selectPage(Integer page, Integer limit, HospitalQueryVo hospitalQueryVo);
+
+    /**
+     * 更新上线状态
+     */
+    void updateStatus(String id, Integer status);
+
+    /**
+     * 医院详情
+     * @param id
+     * @return
+     */
+    Map<String, Object> show(String id);
+
+    /**
+     * 根据医院编号获取医院名称接口
+     * @param hoscode
+     * @return
+     */
+    String getHospName(String hoscode);
 }

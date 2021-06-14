@@ -114,8 +114,8 @@ public class DictServiceImpl extends ServiceImpl<DictMapper, Dict> implements Di
         //根据dictcode获取对应id
         Dict dict = this.getDictByDictCode(dictCode);
         //根据id获取子节点
-        List<Dict> chlidData = this.findChildData(dict.getId());
-        return chlidData;
+        List<Dict> childData = this.findChildData(dict.getId());
+        return childData;
     }
 
     @Cacheable(value = "dict",keyGenerator = "keyGenerator")
