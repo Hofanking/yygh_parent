@@ -8,11 +8,7 @@ import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
 /**
- * <p>
- * UserInfo
- * </p>
- *
- * @author qy
+ * @author scorpios
  */
 @Data
 @ApiModel(description = "UserInfo")
